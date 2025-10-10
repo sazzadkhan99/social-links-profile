@@ -86,4 +86,11 @@ color: var(--Grey900);
     width: 96%;
     margin: auto;
   }
+
+.container ul li a{
+  border-radius: 5px;   
+  display: block;
+  transition: .8s;  
+}
+  
 }
