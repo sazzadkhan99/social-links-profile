@@ -27,7 +27,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
 }
 img{
   max-width: 100%;
@@ -36,7 +35,8 @@ img{
 .container{
   background-color: var(--Grey800);
   width:300px;
-  height:475px;
+  min-height:475px;
+  height: auto;
   text-align: center;
   border-radius: 10px;
   padding: 30px;
@@ -84,7 +84,7 @@ transform: scale(1.05);
 /*Responsive Styling*/
 @media screen and (max-width:600px){
   body{
-    width: 96%;
+    width: 90%;
     margin: auto;
   }
 
@@ -95,4 +95,5 @@ transform: scale(1.05);
 }
   
 }
+
 
