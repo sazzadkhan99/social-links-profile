@@ -78,6 +78,7 @@ img{
 .container a:hover{
 background-color: var(--Green);
 color: var(--Grey900);
+transform: scale(1.05);
 }
 
 /*Responsive Styling*/
@@ -94,3 +95,4 @@ color: var(--Grey900);
 }
   
 }
+
