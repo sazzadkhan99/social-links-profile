@@ -32,7 +32,6 @@ Users should be able to:
 ![](screenshots/mobile_view.jpg)
 
 
-
 ### Links
 
 - Solution URL: https://github.com/sazzadkhan99/social-links-profile
