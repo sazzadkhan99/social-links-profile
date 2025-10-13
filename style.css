@@ -97,4 +97,15 @@ transform: scale(1.05);
 }
 
 
+@media (prefers-reduced-motion: reduce) {
+  /* Close animation or transition reduce */
+  * {
+    animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001s !important;
+  }
+}
+
+
+
 
